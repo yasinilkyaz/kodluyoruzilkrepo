@@ -8,8 +8,9 @@ public class AsalSayı {
 
             }
             if (sayac==0){
-                System.out.println(i+" Sayısı asaldır.");
+                System.out.println(i+" Sayısı ASALDIR.");
             }
+
             sayac=0;
 
         }

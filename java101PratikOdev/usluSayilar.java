@@ -5,7 +5,7 @@ public class Main {
         int n,r;
         Scanner input = new Scanner (System.in);
 
-        System.out.println ("kombinasyon için sayı giriniz  :");
+
         System.out.print("sayısını giriniz");
         n=input.nextInt();
         System.out.print("üssünü giriniz");
