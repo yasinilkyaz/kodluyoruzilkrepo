@@ -8,17 +8,19 @@ public class Main {
         {
             sonuc*=c;
         }
-        System.out.println(sonuc);
+        System.out.println("sonuç : "+sonuc);
         return 1;
     }
     public static void main(String[] args) {
-        Scanner scan = new Scanner(System.in);
-        System.out.println("sayı giriniz");
-        int a =scan.nextInt();
-        System.out.println("üssünü giriniz");
-        int b =scan.nextInt();
-        usluSayi(a,b);
-
+        int loop=1;
+        while (loop<5) {
+            Scanner scan = new Scanner(System.in);
+            System.out.print("taban değerini giriniz :");
+            int a = scan.nextInt();
+            System.out.print("Üs değerini giriniz :");
+            int b = scan.nextInt();
+            usluSayi(a, b);
+        }
     }
 
 }
